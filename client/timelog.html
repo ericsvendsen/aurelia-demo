@@ -1,0 +1,12 @@
+<template>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+        </tr>
+        <tr repeat.for="log of timeLogs">
+            <td>${log.user}</td>
+        </tr>
+    </table>
+
+    <compose view="home"></compose>
+</template>

@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "hapi": "^10.0.0",
+    "vision": "^3.0.0",
+    "handlebars": "^4.0.2",
+    "inert": "^3.0.1",
+    "mongoose": "^4.1.8",
+    "boom": "^2.9.0"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.11"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "client"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.17.0",
+      "aurelia-framework": "github:aurelia/framework@^0.16.0",
+      "aurelia-http-client": "github:aurelia/http-client@^0.11.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "lodash": "npm:lodash@^3.10.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

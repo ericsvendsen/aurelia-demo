@@ -1,0 +1,12 @@
+<template>
+    <table class="table">
+        <tr>
+            <th>Title</th>
+            <th>Code</th>
+        </tr>
+        <tr repeat.for="code of chargeCodes">
+            <td>${code.title}</td>
+            <td>${code.code}</td>
+        </tr>
+    </table>
+</template>
